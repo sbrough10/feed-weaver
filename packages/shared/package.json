@@ -1,0 +1,14 @@
+{
+  "name": "feed-weaver-shared",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Stephen Robert Broughton",
+  "license": "Proprietary. Copyright Stephen Robert Broughton 2024 All rights reserved",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "18.17.0"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  }
+}

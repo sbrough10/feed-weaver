@@ -1,0 +1,9 @@
+!package.json
+!tsconfig.json
+!lerna.json
+!manifest.json
+dist
+.eslintcache
+lib
+node_modules
+.vercel

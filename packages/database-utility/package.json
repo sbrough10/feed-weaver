@@ -1,0 +1,22 @@
+{
+  "name": "database-utility",
+  "version": "1.2.0",
+  "description": "",
+  "author": "Stephen Robert Broughton",
+  "license": "Proprietary. Copyright Stephen Robert Broughton 2024 All rights reserved",
+  "main": "dist/index.js",
+  "engines": {
+    "node": "18.17.0"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.182",
+    "@types/pg": "^7.14.7",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "pg": "^8.5.1",
+    "typescript": "^4.9.5"
+  }
+}

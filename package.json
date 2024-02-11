@@ -1,0 +1,23 @@
+{
+  "name": "feed-weaver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "18.17.0"
+  },
+  "scripts": {
+    "lernaInstall": "npx lerna bootstrap --scope=\"feed-weaver-server\" --include-dependencies",
+    "lernaBuild": "npx lerna run build --scope=\"feed-weaver-server\" --include-dependencies && npx playwright install",
+    "start": "(cd packages/server && npm start)"
+  },
+  "author": "Stephen Robert Broughton",
+  "license": "Proprietary. Copyright Stephen Robert Broughton 2024 All rights reserved",
+  "dependencies": {
+    "lerna": "^5.1.8",
+    "lerna-cli": "^5.1.1"
+  }
+}
